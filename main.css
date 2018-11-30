@@ -1,0 +1,55 @@
+@import url(  /chota/dist/chota.min.css);
+
+/*! chota.css v0.5.2 | MIT License | github.com/jenil/chota */
+:root {
+  --color-primary: #1a9f60;
+  --color-lightGrey: #d2d6dd;
+  --color-grey: #7e818b;
+  --color-darkGrey: #333;
+  --color-error: #d43939;
+  --color-success: #28bd14;
+  --grid-maxWidth: 120rem;
+  --grid-gutter: 2rem;
+  --font-size: 2rem;
+  --font-family: "Catamaran", -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+}
+header {
+  margin: 1rem 0;
+}
+.nav a.brand {
+  color: black;
+  padding: 1rem 0;
+}
+.nav-list {
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+.nav-list span:after {
+  content: " | "
+}
+.nav-list span:last-child:after {
+  content: ""
+}
+.song-list {
+  padding: 0;
+}
+.song-list li {
+  list-style: none;
+}
+pre {
+  background-color: white;
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono";
+  display: grid;
+}
+@media screen and (max-width: 768px) {
+  #sidebar {
+    position: absolute;
+    left: -200px;
+  }
+}
+

@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "chota",
+        "scope": null,
+        "escapedName": "chota",
+        "name": "chota",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "E:\\AcousticMusic\\lyricswebsite\\chota-site"
+    ]
+  ],
+  "_from": "chota@latest",
+  "_hasShrinkwrap": false,
+  "_id": "chota@0.5.2",
+  "_inCache": true,
+  "_location": "/chota",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/chota_0.5.2_1541957500459_0.6650769894063691"
+  },
+  "_npmUser": {
+    "name": "jgog",
+    "email": "i@jgog.in"
+  },
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "chota",
+    "scope": null,
+    "escapedName": "chota",
+    "name": "chota",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/chota/-/chota-0.5.2.tgz",
+  "_shasum": "32684c775b86a2be610943fa973eb1d052c2d344",
+  "_shrinkwrap": null,
+  "_spec": "chota",
+  "_where": "E:\\AcousticMusic\\lyricswebsite\\chota-site",
+  "author": {
+    "name": "Jenil Gogari"
+  },
+  "bugs": {
+    "url": "https://github.com/jenil/chota/issues"
+  },
+  "dependencies": {},
+  "description": "A really small CSS framework",
+  "devDependencies": {
+    "autoprefixer": "^9.0.1",
+    "browser-sync": "^2.18.8",
+    "cssnano": "^4.0.4",
+    "postcss-cli": "^6.0.0",
+    "postcss-csso": "^3.0.0",
+    "postcss-import": "^11.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "32684c775b86a2be610943fa973eb1d052c2d344",
+    "integrity": "sha512-bW5CB0HBti7QWowNSaVRe7bZzpIslIHCAPc74kerRNJjj/7b19zZmrrOdAxyswepvNMSVLhWjmlLUf5HIICD/w==",
+    "tarball": "https://registry.npmjs.org/chota/-/chota-0.5.2.tgz",
+    "fileCount": 17,
+    "unpackedSize": 47592,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb6Gd9CRA9TVsSAnZWagAAZqYP/RYp3/kgdpSen8ga13kg\ntbAhG3XXoYcIUDKgaOhEO5JnpD235k9izM9e/Nzn0454cDO3AFA5YTEgX9os\nucD9xenL7BKkGhcTX4a9VnDE453IFVDxr26C6ehZLBDoEUalKTT/1NHJDXHq\nu3IHyC3moRQgstQd2VbEYHFZv8O5ZBGz222jp4PzBshDrHixDUpzoWlraE8U\nHYw7ZYzLGjpfZvSfZGivbO3xdmy8X2lJ6ePEggV93SBehd886LV8ZjSvPVdE\n4DkJ9oPX1U5vWm4IrYow8t5sJbRmdvfgdUJp+jEJ/6ZeuyHaPHS5TDFBWm5G\nKp6eNXWuMfb1wyDY6rF/mCPwFg96lE/evkHUSSxnCGfiQoLTbfz6VvY12KyN\n6HW9f5h8nTXOUdqjSy6O/oP8zWWDBSIJGhcApVCdGU2ziJUQjLgtvTUDVjET\ndRElLonwnNRgcvDbfGqkpVRRljG+ahT/p64872GjQPyggXtVhEfiEA9ow6+S\nZJV6V9q0RgCZyQlXAvE8NCxYOR68RrNJXoPsOYf5GmlZ88bBecPNuFniTJYm\nXH4F436BH3HP8EEsr3VDIInXnesuRkMfKExWmtQaVW7u7ZZPuoHOSIKVSqDD\n9uecPREFoKFPSiMD9VC3aEFRYsGqjuQnhjP8cNEPFGvLUSxaqk8nilNWEOtE\n6phf\r\n=dR7j\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "homepage": "https://jenil.github.io/chota",
+  "keywords": [
+    "css",
+    "minimal",
+    "web"
+  ],
+  "license": "MIT",
+  "licenseText": "MIT License\n\nCopyright (c) 2017 Jenil Gogari\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+  "main": "dist/chota.min.css",
+  "maintainers": [
+    {
+      "name": "jgog",
+      "email": "i@jgog.in"
+    }
+  ],
+  "name": "chota",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenil/chota.git"
+  },
+  "scripts": {
+    "build": "rm -r dist/ && yarn postcss &&  NODE_ENV=production yarn postcss --ext .min.css && gzip -c dist/chota.min.css  | wc -c",
+    "postcss": "postcss ./src/chota.css -d dist/",
+    "start": "browser-sync start --server --directory --files '**/*.css' '**/*.html'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "NODE_ENV=development yarn postcss -w"
+  },
+  "version": "0.5.2"
+}
