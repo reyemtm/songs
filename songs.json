@@ -1,0 +1,17 @@
+---
+---
+
+[{% for post in site.posts %}
+  {"title": "{{ post.title | slugify }}", 
+  "properties": {
+        "url"     : "{{ post.url }}",
+        "author"  : "{{ post.author }}",
+        "date"    : {
+          "day"   : "{{ post.date | date: "%d" }}",
+          "month" : "{{ post.date | date: "%B" }}",
+          "year"  : "{{ post.date | date: "%Y" }}"
+        },
+        "content":"{{post.content | normalize_whitespace}}"
+    }
+  }{% unless forloop.last %},{% endunless %}{% endfor %}
+]

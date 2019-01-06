@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<header>
+    <nav class="nav" role="navigation">
+      <a class="brand" href="#">Rusty Folk Lyric Index</a>
+
+      <div class="nav-right">
+          <a href="/#">About</a>
+          <a href="/#">Songs</a>
+          <a href="/#">Search</a>
+      </div>
+    </nav>
+
+  </header>
+  <div class="row">
+      <div id="sidebar" class="col-2">
+          <h2>Songs</h2>
+            <ul class="song-list">
+                {% capture posts %}
+                {% for post in site.posts %}
+                  |{{ post.title }}#{{ post.url }}
+                {% endfor %}
+              {% endcapture %}
+              {% assign sortedposts = posts | split: '|' | sort %}
+              {% for post in sortedposts %}
+                  {% assign postitems = post | split: '#' %}
+                  <a href="{{ postitems[1] }}" target="song-current">{{ postitems[0] }}</a><br>
+                  <a href="#" id="{{ postitems[0] | slugify }}" class="lyrics">{{ postitems[0] }}</a><br>
+              {% endfor %}
+            </ul>
+        </div>
+      <main role="main" class="col-10">
+  
+        <section>
+          <div id="lyricFrame"></div>
+          <iframe  name="song-current" src="" height="100%" width="100%" style="border:none;height:calc(100vh - 120px)"></iframe>
+        </section>
+      </main>
+  </div>
+  <script>
+    var songs;
+    fetch('/songs.json')
+    .then(res => res.json())
+    .then(json => songs = json);
+    var frame = document.getElementById('lyricFrame');
+    var lyrics = document.getElementsByClassName('lyrics');
+    console.log(lyrics.length - 1)
+    for (var l in lyrics) {
+      if (l == 12) break
+      lyrics[l].addEventListener('click', function(e) {
+        console.log(this.id);
+        for (var s in songs) {
+          if (songs[s].title === e.target.id) {
+            frame.innerHTML = songs[s].properties.content
+          }
+        }
+      });
+    }
+  </script>

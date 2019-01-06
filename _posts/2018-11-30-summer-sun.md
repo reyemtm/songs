@@ -1,12 +1,10 @@
 C/G/F/G
-
 sun is setting light the fire
 playing music then retire
 watch the moonrise from the bed
 then lay to rest our weary heads
 
 G/F/C
-
 weary heads
 the summer sun has bled (x2)
 
