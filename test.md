@@ -1,17 +1,27 @@
 ---
 layout: default
 ---
-<section id="songs"></section>
+<section id="sidebar" class="col-3">
+  <h2>Songs</h2>
+  <ul class="song-list">
+  </ul>
+</section>
+<section role="main" id="songs" class="col-9">
+</section>
 <script>
 var songs = [];
 
 fetch("/songs.json")
 .then(res => {
-return res.json()
+  return res.json()
 })
 .then(data => {
-var main = document.getElementById("songs");
-console.log(data);
-main.innerHTML = data[0].properties.content;
+  console.log(data);
+  var main = document.getElementById("songs");
+  main.innerHTML = data[0].properties.content;
+  var sidebar = document.getElementById("sidebar");
+  data.map(song => {
+    sidebar.children[1].innerHTML += `<li>${song.title}</li>`
+  });
 })
 </script>
