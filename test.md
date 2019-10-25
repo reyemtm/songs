@@ -5,7 +5,7 @@ layout: default
 <script>
 var songs = [];
 
-fetch("/search.json")
+fetch("/songs.json")
 .then(res => {
 return res.json()
 })
