@@ -12,6 +12,6 @@ return res.json()
 .then(data => {
 var main = document.getElementById("songs");
 console.log(data);
-main.innerHTML = data[0].content;
+main.innerHTML = data[0].properties.content;
 })
 </script>
