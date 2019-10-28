@@ -1,6 +1,14 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: homepage
+layout: default
 ---
+<h1>{{site.title}}</h1>
+<div class="row">
+  <section id="sidebar" class="col-3">
+    <h2>Songs</h2>
+    <ul class="song-list">
+    </ul>
+  </section>
+  <section role="main" id="songs" class="col-9">
+  </section>
+</div>
+<script src="/songList.js"></script>

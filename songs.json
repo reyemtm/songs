@@ -1,17 +1,20 @@
 ---
 ---
+{% assign sorted = site.songs | sort:'title' %}
 
-[{% for post in site.posts %}
-  {"title": "{{ post.title | slugify }}", 
-  "properties": {
-        "url"     : "{{ post.url }}",
-        "author"  : "{{ post.author }}",
+{
+{% for song in sorted %}
+
+    "{{song.title | slugify }}": {
+        "title": "{{ song.title }}",
+        "url"     : "{{ song.url }}",
+        "author"  : "{{ song.author }}",
         "date"    : {
-          "day"   : "{{ post.date | date: "%d" }}",
-          "month" : "{{ post.date | date: "%B" }}",
-          "year"  : "{{ post.date | date: "%Y" }}"
+          "day"   : "{{ song.date | date: "%d" }}",
+          "month" : "{{ song.date | date: "%B" }}",
+          "year"  : "{{ song.date | date: "%Y" }}"
         },
-        "content":"{{post.content | normalize_whitespace}}"
-    }
-  }{% unless forloop.last %},{% endunless %}{% endfor %}
-]
+          "content":"{{song.content | normalize_whitespace }}"
+      }  {% unless forloop.last %},{% endunless %}{% endfor %}
+}
+
