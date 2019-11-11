@@ -8,3 +8,16 @@ date: 2019-09-14
  - https://tabs.ultimate-guitar.com/tab/three_tall_pines/stone_walls_chords_1399323
 - We're all in this Thing Together
  - https://tabs.ultimate-guitar.com/tab/old-crow-medicine-show/were-all-in-this-together-chords-967531
+- Coming Back to You (Petty Capo 2)
+ - https://genius.com/Tom-petty-crawling-back-to-you-lyrics
+- Girl from the North COuntry (Dylan Capo 0)
+ - https://www.google.com/search?ie=UTF-8&oe=UTF-8&sourceid=navclient&gfns=1&q=girl+from+the+north+country
+- Phil Ochs Songs
+ - https://web.cecs.pdx.edu/~trent/ochs/lyrics.html
+ - Changes
+ - Hills of West Virginia
+ - There but for Fortune
+ - When I'm Gone
+ - Power and GLory
+ 
+- 
