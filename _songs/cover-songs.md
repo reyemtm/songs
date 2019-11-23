@@ -4,7 +4,20 @@ date: 2019-09-14
 ---
 - Twenty Toes in the Sand
  - https://tabs.ultimate-guitar.com/tab/forest_sun/twenty_toes_in_the_sand_chords_630959
-- Stone Walls (Capo 5)
+- Stone Walls (Capo 2 or 5)
  - https://tabs.ultimate-guitar.com/tab/three_tall_pines/stone_walls_chords_1399323
 - We're all in this Thing Together
- - 
+ - https://tabs.ultimate-guitar.com/tab/old-crow-medicine-show/were-all-in-this-together-chords-967531
+- Coming Back to You (Petty Capo 2)
+ - https://genius.com/Tom-petty-crawling-back-to-you-lyrics
+- Girl from the North COuntry (Dylan Capo 0)
+ - https://www.google.com/search?ie=UTF-8&oe=UTF-8&sourceid=navclient&gfns=1&q=girl+from+the+north+country
+- Phil Ochs Songs
+ - https://web.cecs.pdx.edu/~trent/ochs/lyrics.html
+ - Changes
+ - Hills of West Virginia
+ - There but for Fortune
+ - When I'm Gone
+ - Power and GLory
+- The Luckiest Man (Wood Brothers)
+ - https://tabs.ultimate-guitar.com/tab/the_wood_brothers/luckiest_man_chords_969902
